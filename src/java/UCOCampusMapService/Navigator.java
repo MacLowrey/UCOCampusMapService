@@ -1,5 +1,8 @@
+package UCOCampusMapService;
+
 
 import java.util.*;
+import org.primefaces.model.map.LatLng;
 
 /**
  * 

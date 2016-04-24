@@ -1,5 +1,7 @@
+package UCOCampusMapService;
 
 import java.util.*;
+import org.primefaces.model.map.LatLng;
 
 /**
  * 
@@ -25,15 +27,13 @@ public class CampusMap {
     /**
      * 
      */
-    private MapView mapView = mapView;
+    private MapView mapView;
 
     /**
      * @param startingPoint 
      * @return
      */
     public void setCurrentLocation(LatLng startingPoint) {
-        // TODO implement here
-        return null;
     }
 
     /**
@@ -50,8 +50,6 @@ public class CampusMap {
      * @return
      */
     public void route(LatLng startingPoint, LatLng destination) {
-        // TODO implement here
-        return null;
     }
 
     /**
@@ -59,8 +57,6 @@ public class CampusMap {
      * @return
      */
     public void setMapView(MapView view) {
-        // TODO implement here
-        return null;
     }
 
 }

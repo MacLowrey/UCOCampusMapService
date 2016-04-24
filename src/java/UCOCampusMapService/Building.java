@@ -1,5 +1,8 @@
+package UCOCampusMapService;
+
 
 import java.util.*;
+import org.primefaces.model.map.LatLng;
 
 /**
  * 
@@ -35,8 +38,6 @@ public class Building {
      * @return
      */
     public void setLocation(LatLng location) {
-        // TODO implement here
-        return null;
     }
 
     /**
@@ -44,8 +45,6 @@ public class Building {
      * @return
      */
     public void setName(String name) {
-        // TODO implement here
-        return null;
     }
 
     /**
